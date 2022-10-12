@@ -18,7 +18,7 @@ public abstract class AbstractEntity {
     @Size(max=200)
     private String name;
 
-    public int getId() {
+    public int getId(int employerId) {
         return id;
     }
 
